@@ -1,0 +1,9 @@
+
+[run]
+branch = True
+include = todo_module/*
+
+[report]
+include = todo_module/*.py
+omit = *__init__*
+show_missing = True
